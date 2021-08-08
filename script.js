@@ -22,3 +22,14 @@ $(document).ready(function() {
                             medium: 850,
                             large: 1250
                         };
+                        var toppingPrice = [{
+                            pepperoni: {
+                                price: 250,
+                            },
+                            sausage: {
+                                price: 150,
+                            },
+                            bacon: {
+                                price: 200
+                            }
+                        }]
