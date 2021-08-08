@@ -33,3 +33,7 @@ $(document).ready(function() {
                                 price: 200
                             }
                         }]
+                        var crustPrice = {
+                                crispy: 300,
+                                stuffed: 200,
+                                gluten: 100
