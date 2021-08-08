@@ -73,3 +73,78 @@
             color: black;
             font-style: italic;
         }
+        
+        .jumbotron {
+            background-color: turquoise;
+            opacity: 1.0;
+            width: 650px;
+        }
+        
+        .one {
+            padding-left: 30%;
+            padding-top: 20%;
+        }
+        
+        #img {
+            border-radius: 70%;
+            height: 90px;
+        }
+        
+        .card-footer {
+            margin: auto;
+            background-color: white;
+        }
+        
+        #total_amount {
+            width: 200px;
+        }
+        
+        .nav {
+            width: 900px;
+            float: right;
+            border: 1px solid black;
+        }
+        
+        .size1 {
+            display: flex;
+            text-align: center;
+        }
+        
+        #sml {
+            padding: 30px;
+            width: 400px;
+            height: 300px;
+        }
+        
+        #med {
+            width: 400px;
+            height: 300px;
+            padding: 30px;
+            width: 400px;
+            height: 300px;
+        }
+        
+        #lrg {
+            padding: 30px;
+            width: 400px;
+            height: 300px;
+        }
+        
+        .nav ul li {
+            width: 120px;
+            float: left;
+            margin: 10px auto;
+            text-align: center;
+            padding: 3%;
+        }
+        
+        .nav ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 20%;
+        }
+        
+        .nav ul li a:hover {
+            background-color: darkgreen;
+            color: black;
+        }
