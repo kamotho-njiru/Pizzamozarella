@@ -68,3 +68,21 @@ $(document).ready(function() {
                         var pizzaPrice = (sizePrice, toppingPrice, crustPrice);
                         var inputtedQuantity = parseInt($('#quantity').val());
                         var deliveryPrice = deliveryPrices[selectedDeliver - 1];
+
+                        var newDetails = new Details(size, crust, toppings, inputtedQuantity);
+                        var newTotal = new Total(sizePrice, crustPrice, toppingPrice, inputtedQuantity, deliveryPrice);
+                        var newBill = newTotal.finalTotal();
+
+
+                        var totalQuantity = parseInt($("total").val());
+
+                        function calcTotal() {
+                            var priceOnePizza =
+                                sizeCalcPrice(sizePrice()) +
+                                crustCalcPrice(crustPrice()) +
+                                toppingsCalcPrice(toppingPrice());
+                            return priceOnePizza;
+                        }
+                        $("#order").on("click", function() {
+
+                        });
