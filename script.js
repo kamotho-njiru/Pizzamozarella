@@ -34,6 +34,28 @@ $(document).ready(function() {
                             }
                         }]
                         var crustPrice = {
-                                crispy: 300,
-                                stuffed: 200,
-                                gluten: 100
+                            crispy: 300,
+                            stuffed: 200,
+                            gluten: 100
+                        };
+
+
+                        function sizeCalcPrice(size) {
+                            if (size === "small") {
+                                return sizePrice.small * 1;
+                            } else if (size === "medium") {
+                                return sizePrice.medium * 1;
+                            } else {
+                                return sizePrice.large * 1;
+                            }
+                        }
+
+                        function crustCalcPrice(crust) {
+                            if (crust === "crispy") {
+                                return crustPrice.crispy * 1;
+                            } else if (crust === "stuffed") {
+                                return crustPrice.stuffed * 1;
+                            } else {
+                                return crustPrice.gluten * 1;
+                            };
+                        };
