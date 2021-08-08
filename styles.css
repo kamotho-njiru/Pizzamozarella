@@ -68,3 +68,8 @@
             zoom: 1.5;
             overflow: hidden;
         }
+        
+        #con {
+            color: black;
+            font-style: italic;
+        }
