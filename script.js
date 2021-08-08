@@ -59,3 +59,12 @@ $(document).ready(function() {
                                 return crustPrice.gluten * 1;
                             };
                         };
+
+                        var selectedDeliver = parseInt($('#delivery-option').val());
+                        var deliveryPrices = [250, 0]
+                        var crust = $('#crust').val();
+                        var toppings = $('#toppings').val();
+                        var size = parseInt($('#size').val());
+                        var pizzaPrice = (sizePrice, toppingPrice, crustPrice);
+                        var inputtedQuantity = parseInt($('#quantity').val());
+                        var deliveryPrice = deliveryPrices[selectedDeliver - 1];
